@@ -2,11 +2,13 @@ package it.epicode.U5W2D2practice.service;
 
 import it.epicode.U5W2D2practice.exception.BlogPostNotFoundException;
 import it.epicode.U5W2D2practice.model.BlogPost;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+@Service
 public class BlogPostService {
 
     private List<BlogPost> blogPosts = new ArrayList<>();

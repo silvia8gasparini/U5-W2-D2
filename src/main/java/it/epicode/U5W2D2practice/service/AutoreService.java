@@ -2,10 +2,12 @@ package it.epicode.U5W2D2practice.service;
 
 import it.epicode.U5W2D2practice.exception.AutoreNotFoundException;
 import it.epicode.U5W2D2practice.model.Autore;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Service
 public class AutoreService {
     private List<Autore> autori = new ArrayList<>();
     private int nextId = 1;
